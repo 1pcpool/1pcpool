@@ -1,0 +1,25 @@
+{
+  "name": "1pcpool",
+  "version": "1.0.0",
+  "description": "1% fee forever. Open source and transparent stake pool. Delegate with peace of mind.",
+  "scripts": {
+    "format": "prettier --write '**/*.{js,json,md}'",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:1pcpool/1pcpool.git"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.2.0",
+    "@commitlint/config-conventional": "^13.2.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.4.1"
+  },
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write"
+    ]
+  }
+}
