@@ -1,0 +1,16 @@
+#!/bin/bash
+
+cardano-cli stake-pool registration-certificate \
+--cold-verification-key-file ./1pc/cold.vkey \
+--vrf-verification-key-file ./1pc/vrf.vkey \
+--pool-pledge 25000000000 \
+--pool-cost 340000000 \
+--pool-margin 0.01 \
+--pool-reward-account-verification-key-file ./wallet/reward/stake.vkey \
+--pool-owner-stake-verification-key-file ./wallet/pledge/stake.vkey \
+--metadata-url https://bit.ly/1pc-meta \
+--metadata-hash $(cardano-cli stake-pool metadata-hash --pool-metadata-file ./1pc/poolmeta.json) \
+--single-host-pool-relay relays.1pc.dev \
+--pool-relay-port 6000 \
+--mainnet \
+--out-file ./1pc/pool.cert

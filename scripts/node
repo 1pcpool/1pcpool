@@ -1,0 +1,24 @@
+#!/bin/bash
+
+cardano-hw-cli node key-gen \
+--path 1853H/1815H/0H/0H \
+--hw-signing-file ./1pc/cold.hwsfile \
+--cold-verification-key-file ./1pc/cold.vkey \
+--operational-certificate-issue-counter-file ./1pc/cold.counter
+
+cardano-cli node key-gen-KES \
+--verification-key-file ./1pc/hot.vkey \
+--signing-key-file ./1pc/hot.skey
+
+cardano-cli node key-gen-VRF \
+--verification-key-file ./1pc/vrf.vkey \
+--signing-key-file ./1pc/vrf.skey
+
+cardano-cli stake-pool id \
+--cold-verification-key-file ./1pc/cold.vkey \
+--output-format hex \
+> ./1pc/pool.id
+
+cardano-cli stake-pool id \
+--cold-verification-key-file ./1pc/cold.vkey \
+> ./1pc/pool.id-bech32

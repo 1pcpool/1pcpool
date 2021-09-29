@@ -1,2 +1,7 @@
 .vscode
+*.hwsfile
+*.skey
+*.tmp
+cold.counter
 node_modules
+op.cert
