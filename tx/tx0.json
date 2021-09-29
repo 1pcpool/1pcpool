@@ -1,0 +1,57 @@
+{
+  "id": "0",
+  "type": "Pool Registration",
+  "date-created": "2021-09-29T00:00:00+00:00",
+  "date-expire": "2021-09-29T19:00:00+00:00",
+  "ttl": "41350000",
+  "pool-name": "1pc",
+  "pool-metadata": {
+    "name": "1 Percent Fee | 1% Fixed",
+    "description": "1% fee forever. Open source and transparent stake pool. Delegate with peace of mind.",
+    "ticker": "1PC",
+    "homepage": "https://1pc.dev/",
+    "extended": "https://bit.ly/1pc-extended"
+  },
+  "pool-pledge": "25000",
+  "pool-margin": "1",
+  "pool-cost": "340",
+  "pool-reg-cert": {
+    "type": "CertificateShelley",
+    "description": "Stake Pool Registration Certificate",
+    "cborHex": "8a03581cb7564f7fef9efb021895e1eb7c01ab6029cfd4d4bdce259d08fc9afc58203db909c0714d20c720fef381c8127d4e472f56d9b40f82594292914fced428ab1b00000005d21dba001a1443fd00d81e82011864581de1201ec1eea9c9f64698bf9105f44ae7c00537ce31723ce585240c463081581cd4b37a0b522f8cdea4c17380b9ae3c05c79c34c27cdf62bf5191fa908183011917706e72656c6179732e3170632e646576827768747470733a2f2f6269742e6c792f3170632d6d65746158206efa0388438999ad3b08c3760cc282720d8fc2988cc162a0caee272fea0e84d8"
+  },
+  "txFee": "193133",
+  "txBody": {
+    "type": "TxBodyMary",
+    "description": "",
+    "cborHex": "83a5008282582000df2243e7957ea55a330e61f8aaf57799e9470a077a31413795d9340653fd8000825820c53a5e5311c0d880c24e9d4c5858a76664ba4b2807150b32800fc0e571c4a93800018182583901377be975f6ba4de643f8beeccc464d5b18795b3631062fffa0b600ce201ec1eea9c9f64698bf9105f44ae7c00537ce31723ce585240c46301a00988970021a0002ff7d031a0276f37004818a03581cb7564f7fef9efb021895e1eb7c01ab6029cfd4d4bdce259d08fc9afc58203db909c0714d20c720fef381c8127d4e472f56d9b40f82594292914fced428ab1b00000005d21dba001a1443fd00d81e82011864581de1201ec1eea9c9f64698bf9105f44ae7c00537ce31723ce585240c463081581cd4b37a0b522f8cdea4c17380b9ae3c05c79c34c27cdf62bf5191fa908183011917706e72656c6179732e3170632e646576827768747470733a2f2f6269742e6c792f3170632d6d65746158206efa0388438999ad3b08c3760cc282720d8fc2988cc162a0caee272fea0e84d89ffff6"
+  },
+  "signing-file": [
+    {
+      "name": "Payment #1 'operator' payment signing key",
+      "vkey": {
+        "type": "PaymentVerificationKeyShelley_ed25519",
+        "description": "",
+        "cborHex": "5820faaea231c0a5b2ee7ea6053767562a3385bfab7afe7aa8caaba7be6830e8d254"
+      }
+    },
+    {
+      "name": "Owner #1 'pledge' stake signing key",
+      "vkey": {
+        "type": "StakeVerificationKeyShelley_ed25519",
+        "description": "Stake Hardware Verification Key",
+        "cborHex": "58207c80d6032c60b10be3084adcc198fb9601dea01a542b743b3218ca36de42660e"
+      }
+    },
+    {
+      "name": "Pool '1pc' cold signing key",
+      "vkey": {
+        "type": "StakePoolVerificationKey_ed25519",
+        "description": "Stake Pool Hardware Verification Key",
+        "cborHex": "5820d83acfa730a68a7d413ae2c27410e6a3ffd4dc3816cda36424305314a6cfca2b"
+      }
+    }
+  ],
+  "witness": [],
+  "signed-txBody": {}
+}

@@ -1,0 +1,5 @@
+{
+    "type": "StakePoolVerificationKey_ed25519",
+    "description": "Stake Pool Hardware Verification Key",
+    "cborHex": "5820d83acfa730a68a7d413ae2c27410e6a3ffd4dc3816cda36424305314a6cfca2b"
+}

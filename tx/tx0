@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cardano-cli transaction build-raw \
+--tx-in c53a5e5311c0d880c24e9d4c5858a76664ba4b2807150b32800fc0e571c4a938#0 \
+--tx-in 00df2243e7957ea55a330e61f8aaf57799e9470a077a31413795d9340653fd80#0 \
+--tx-out $(cat ./wallet/reward/base.addr)+9996656 \
+--invalid-hereafter 41350000 \
+--fee 196477 \
+--certificate-file ./1pc/pool.cert \
+--out-file ./tx/tx0.tmp
