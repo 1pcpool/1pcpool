@@ -1,0 +1,34 @@
+{
+  "id": "1",
+  "type": "Wallet Rewards Withdrawal",
+  "date-created": "2021-10-20T00:00:00+00:00",
+  "date-expire": "2021-10-20T19:00:00+00:00",
+  "ttl": "43220000",
+  "wallet-name": "reward",
+  "rewards": "352579897",
+  "txFee": "189525",
+  "txBody": {
+    "type": "TxBodyMary",
+    "description": "",
+    "cborHex": "83a50081825820565cec05d015830d1b8c5e6c524ac90d1337a39b29cfce9a4f4b940d9191106000018382583901722bb0e0e45192619e1c1ae9e965c30f5389a3c92fdb84f694c13dcfd4b37a0b522f8cdea4c17380b9ae3c05c79c34c27cdf62bf5191fa901a0a8086728258390180cbfa1e77be3acded115f227c3788888cf5116846b3baa27a6b7605201ec1eea9c9f64698bf9105f44ae7c00537ce31723ce585240c46301a0a80867282583901377be975f6ba4de643f8beeccc464d5b18795b3631062fffa0b600ce201ec1eea9c9f64698bf9105f44ae7c00537ce31723ce585240c46301a00748bae021a0002e455031a02937c2005a1581de1201ec1eea9c9f64698bf9105f44ae7c00537ce31723ce585240c46301a1503f1399ffff6"
+  },
+  "signing-file": [
+    {
+      "name": "Wallet 'reward' payment signing key",
+      "vkey": {
+        "type": "PaymentVerificationKeyShelley_ed25519",
+        "description": "Payment Hardware Verification Key",
+        "cborHex": "5820ebf68a603d63d98896f4ad73b3e4f88383dd57baaa5105585085485e92d33994"
+      }
+    },
+    {
+      "name": "Wallet 'reward' stake signing key",
+      "vkey": {
+        "type": "StakeVerificationKeyShelley_ed25519",
+        "description": "Stake Hardware Verification Key",
+        "cborHex": "5820b4aa3c1da295baab4880540e3b3f12d57b681daf4795056eb6271e84b02b749d"
+      }
+    }
+  ],
+  "signed-txBody": {}
+}
