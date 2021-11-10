@@ -9,7 +9,7 @@ is available in this repository. Delegate with peace of mind.
 We leverage [CIP-1853](https://cips.cardano.org/cips/cip1853/) and
 [CIP-1852](https://cips.cardano.org/cips/cip1852/) creating the most secure
 stake pool on the network. Pool and wallet cold keys are backed by multiple
-Ledger [Nano X devices](https://shop.ledger.com/pages/ledger-nano-x), something
+[Ledger Nano X](https://shop.ledger.com/pages/ledger-nano-x) devices, something
 that was not possible until recently.
 
 [Secure-by-design infrastructure](https://cloud.google.com/security/infrastructure)
