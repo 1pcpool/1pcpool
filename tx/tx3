@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cardano-cli transaction build-raw \
+--tx-in bc98166784378982c25079cb8c08c983268a577c0192afac740318c1c21554bf#2 \
+--tx-out addr1qymhh6t476aymejrlzlwenzxf4d3s72mxccsvtll5zmqpn3qrmq7a2wf7erf30u3qh6y4e7qq5muuvtj8njc2fqvgccq4a40x0+2675316 \
+--tx-out addr1qymhh6t476aymejrlzlwenzxf4d3s72mxccsvtll5zmqpn3qrmq7a2wf7erf30u3qh6y4e7qq5muuvtj8njc2fqvgccq4a40x0+4786204 \
+--invalid-hereafter 45120000 \
+--fee 176413 \
+--out-file ./tx/tx3.tmp

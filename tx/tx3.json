@@ -1,0 +1,25 @@
+{
+  "id": "3",
+  "type": "Wallet SundaeSwap Vote",
+  "date-created": "2021-11-12T00:00:00+00:00",
+  "date-expire": "2021-11-12T19:00:00+00:00",
+  "ttl": "45120000",
+  "wallet-name": "reward",
+  "txFee": "176413",
+  "txBody": {
+    "type": "TxBodyMary",
+    "description": "",
+    "cborHex": "83a40081825820bc98166784378982c25079cb8c08c983268a577c0192afac740318c1c21554bf02018282583901377be975f6ba4de643f8beeccc464d5b18795b3631062fffa0b600ce201ec1eea9c9f64698bf9105f44ae7c00537ce31723ce585240c46301a0028d27482583901377be975f6ba4de643f8beeccc464d5b18795b3631062fffa0b600ce201ec1eea9c9f64698bf9105f44ae7c00537ce31723ce585240c46301a0049081c021a0002b11d031a02b07a009ffff6"
+  },
+  "signing-file": [
+    {
+      "name": "Wallet 'reward' payment signing key",
+      "vkey": {
+        "type": "PaymentVerificationKeyShelley_ed25519",
+        "description": "Payment Hardware Verification Key",
+        "cborHex": "5820ebf68a603d63d98896f4ad73b3e4f88383dd57baaa5105585085485e92d33994"
+      }
+    }
+  ],
+  "signed-txBody": {}
+}
