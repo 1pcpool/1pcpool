@@ -1,0 +1,12 @@
+#!/bin/bash
+
+cardano-cli transaction build-raw \
+--tx-in c1b5459bde6221cc6066ab2b426c2733c89013f7c9c3a38cfc05f6380fa758b2#0 \
+--tx-in c1b5459bde6221cc6066ab2b426c2733c89013f7c9c3a38cfc05f6380fa758b2#1 \
+--tx-out addr1q9ezhv8qu3geycv7rsdwn6t9cv848zdreyhahp8kjnqnmn75kdaqk5303n02fstnszu6u0q9c7wrfsnuma3t75v3l2gqh4u90a+175575046 \
+--tx-out addr1qxqvh7s7w7lr4n0dz90jylph3zygeag3dprt8w4z0f4hvpfqrmq7a2wf7erf30u3qh6y4e7qq5muuvtj8njc2fqvgccqgh2t67+175575046 \
+--tx-out addr1qymhh6t476aymejrlzlwenzxf4d3s72mxccsvtll5zmqpn3qrmq7a2wf7erf30u3qh6y4e7qq5muuvtj8njc2fqvgccq4a40x0+7461520 \
+--withdrawal $(cat ./wallet/reward/reward.addr)+351342961 \
+--invalid-hereafter 46672321 \
+--fee 192869 \
+--out-file ./tx/tx4.tmp
