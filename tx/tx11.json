@@ -1,0 +1,34 @@
+{
+  "id": "11",
+  "type": "Wallet Delegation",
+  "date-created": "2022-01-19T00:00:00+00:00",
+  "date-expire": "2022-01-19T19:00:00+00:00",
+  "ttl": "50989017",
+  "wallet-name": "reward",
+  "pool-id": "988b7a8fa476f5be2987ffaebe740cdcdfafc7790f3a624c22fbbf28",
+  "txFee": "180021",
+  "txBody": {
+    "type": "TxBodyMary",
+    "description": "",
+    "cborHex": "83a500818258208438cac5f43702f440a3d8fb0891abc96c8f16820aa5e14f14f7e4a064c81c9e02018182583901377be975f6ba4de643f8beeccc464d5b18795b3631062fffa0b600ce201ec1eea9c9f64698bf9105f44ae7c00537ce31723ce585240c46301a006f1b5e021a0002bf35031a030a07d9048183028200581c201ec1eea9c9f64698bf9105f44ae7c00537ce31723ce585240c4630581c988b7a8fa476f5be2987ffaebe740cdcdfafc7790f3a624c22fbbf289ffff6"
+  },
+  "signing-file": [
+    {
+      "name": "Wallet 'reward' payment signing key",
+      "vkey": {
+        "type": "PaymentVerificationKeyShelley_ed25519",
+        "description": "Payment Hardware Verification Key",
+        "cborHex": "5820ebf68a603d63d98896f4ad73b3e4f88383dd57baaa5105585085485e92d33994"
+      }
+    },
+    {
+      "name": "Wallet 'reward' stake signing key",
+      "vkey": {
+        "type": "StakeVerificationKeyShelley_ed25519",
+        "description": "Stake Hardware Verification Key",
+        "cborHex": "5820b4aa3c1da295baab4880540e3b3f12d57b681daf4795056eb6271e84b02b749d"
+      }
+    }
+  ],
+  "signed-txBody": {}
+}
