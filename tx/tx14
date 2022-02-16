@@ -1,0 +1,14 @@
+#!/bin/bash
+
+cardano-cli stake-address delegation-certificate \
+--stake-verification-key-file ./wallet/reward/stake.vkey \
+--stake-pool-id b7564f7fef9efb021895e1eb7c01ab6029cfd4d4bdce259d08fc9afc \
+--out-file ./wallet/reward/delegation.cert
+
+cardano-cli transaction build-raw --mary-era \
+--tx-in 312c40c87f2d969138be3646060e42c822f16464e5d1534165c15496f80ad234#2 \
+--tx-out addr1qymhh6t476aymejrlzlwenzxf4d3s72mxccsvtll5zmqpn3qrmq7a2wf7erf30u3qh6y4e7qq5muuvtj8njc2fqvgccq4a40x0+7101482 \
+--invalid-hereafter 53468942 \
+--fee 180021 \
+--certificate-file ./wallet/reward/delegation.cert \
+--out-file ./tx/tx14.tmp
