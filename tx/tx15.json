@@ -1,0 +1,34 @@
+{
+  "id": "15",
+  "type": "Pool De-Registration",
+  "date-created": "2022-03-16T00:00:00+00:00",
+  "date-expire": "2022-03-16T19:00:00+00:00",
+  "ttl": "55842593",
+  "pool-name": "1pc",
+  "retire-epoch": "327",
+  "txFee": "178745",
+  "txBody": {
+    "type": "TxBodyMary",
+    "description": "",
+    "cborHex": "83a50081825820a0f65b9c57c1386842dbc8b83237678e10cc9737338e52e63cd37c032e2f916b00018182583901377be975f6ba4de643f8beeccc464d5b18795b3631062fffa0b600ce201ec1eea9c9f64698bf9105f44ae7c00537ce31723ce585240c46301a00499107021a0002ba39031a0354172104818304581cb7564f7fef9efb021895e1eb7c01ab6029cfd4d4bdce259d08fc9afc1901479ffff6"
+  },
+  "signing-file": [
+    {
+      "name": "Wallet 'reward' payment signing key",
+      "vkey": {
+        "type": "PaymentVerificationKeyShelley_ed25519",
+        "description": "Payment Hardware Verification Key",
+        "cborHex": "5820ebf68a603d63d98896f4ad73b3e4f88383dd57baaa5105585085485e92d33994"
+      }
+    },
+    {
+      "name": "Pool '1pc' cold signing key",
+      "vkey": {
+        "type": "StakePoolVerificationKey_ed25519",
+        "description": "Stake Pool Hardware Verification Key",
+        "cborHex": "5820d83acfa730a68a7d413ae2c27410e6a3ffd4dc3816cda36424305314a6cfca2b"
+      }
+    }
+  ],
+  "signed-txBody": {}
+}
