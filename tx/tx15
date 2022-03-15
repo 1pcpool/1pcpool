@@ -1,0 +1,14 @@
+#!/bin/bash
+
+cardano-cli stake-pool deregistration-certificate \
+--cold-verification-key-file ./1pc/cold.vkey \
+--epoch 327 \
+--out-file ./1pc/pool.dereg
+
+cardano-cli transaction build-raw --mary-era \
+--tx-in a0f65b9c57c1386842dbc8b83237678e10cc9737338e52e63cd37c032e2f916b#0 \
+--tx-out addr1qymhh6t476aymejrlzlwenzxf4d3s72mxccsvtll5zmqpn3qrmq7a2wf7erf30u3qh6y4e7qq5muuvtj8njc2fqvgccq4a40x0+4821255 \
+--invalid-hereafter 55842593 \
+--fee 178745 \
+--certificate-file ./1pc/pool.dereg \
+--out-file ./tx/tx15.tmp
